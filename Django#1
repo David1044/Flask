@@ -1,0 +1,26 @@
+david@david-H110M-S2PH:~$ django-admin startproject mysite2
+david@david-H110M-S2PH:~$ cd mustite2
+bash: cd: mustite2: No such file or directory
+david@david-H110M-S2PH:~$ cd mysite2
+david@david-H110M-S2PH:~/mysite2$ python3
+Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
+[GCC 7.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+david@david-H110M-S2PH:~/mysite2$ python3 manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 13 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+July 12, 2018 - 17:50:06
+Django version 1.11.11, using settings 'mysite2.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+[12/Jul/2018 17:51:45] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[12/Jul/2018 17:51:45] "GET /favicon.ico HTTP/1.1" 404 1963
+[12/Jul/2018 17:52:11] "GET / HTTP/1.1" 200 1716
